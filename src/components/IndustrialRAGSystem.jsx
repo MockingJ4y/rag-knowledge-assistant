@@ -12,7 +12,7 @@ const IndustrialRAGSystem = () => {
     chunkOverlap: 50,
     topK: 3,
     temperature: 0.7,
-    model: 'meta-llama/llama-3.2-3b-instruct'
+    model: 'mistralai/mistral-7b-instruct:free'
   });
   const [showSettings, setShowSettings] = useState(false);
   const [stats, setStats] = useState({
